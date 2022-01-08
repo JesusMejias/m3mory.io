@@ -1,0 +1,31 @@
+export const cards = [{
+    number: 10,
+    realNumber: 5,
+    rows: 2,
+    cardsPerRow: 5,
+    lives: 6
+}, {
+    number: 16,
+    realNumber: 8,
+    rows: 4,
+    cardsPerRow: 4,
+    lives: 10
+}, {
+    number: 20,
+    realNumber: 10,
+    rows: 4,
+    cardsPerRow: 5,
+    lives: 16
+}, {
+    number: 24,
+    realNumber: 12,
+    rows: 4,
+    cardsPerRow: 6,
+    lives: 22
+}, {
+    number: 30,
+    realNumber: 15,
+    rows: 6,
+    cardsPerRow: 5,
+    lives: 28
+}]
