@@ -83,13 +83,11 @@ export default function NextScreen({ number }) {
                                                 if (!e.target.classList.contains('selected')) {
                                                     if (value === null) {
                                                         e.target.classList.add('selected')
-                                                        console.log({ item: item.id, key, object: e })
                                                         setValue({ item: item.id, key, object: e })
                                                     } else {
                                                         if (key !== value.key) {
                                                             const htmlRows = Array.from(document.querySelectorAll(".row"))
                                                             htmlRows.map(htmlRow => htmlRow.classList.add('overlay'))
-                                                            console.log(htmlRows)
                                                             e.target.classList.add('selected')
                                                             if (value.item === item.id) {
                                                                 setNumberMatched(numberMatched + 1)

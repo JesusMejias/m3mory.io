@@ -1,12 +1,26 @@
 import { useState } from "react"
 import NextScreen from '../components/nextScreen';
 import { cards } from '../components/cards'
+import Head from 'next/head'
 
 export default function Home() {
   const [nmbrSelected, setnmbrSelected] = useState(0);
   const [nextScreen, setNextScreen] = useState(false);
   return (
     <>
+      <Head>
+        <title>m3mory.io - minimalist memory game</title>
+        <meta name="description" content="m3mory.io is a minimalist memory game allows for people to play memory games consisting of 10, 16, 20, 24, and 30 cards." />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0985df" />
+        <meta name="apple-mobile-web-app-title" content="m3mory.io" />
+        <meta name="application-name" content="m3mory.io" />
+        <meta name="msapplication-TileColor" content="#0985df" />
+        <meta name="theme-color" content="#0985df" />
+      </Head>
       <div className="top-section">
         <header>
           <div className="container">
