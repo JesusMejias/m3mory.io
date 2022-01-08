@@ -1,1 +1,1 @@
-m3mory.io is an open source project created by Jesús Mejías.
+m3mory.io is an open source project and game that uses Unsplash API.
