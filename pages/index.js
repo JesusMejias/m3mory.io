@@ -22,6 +22,7 @@ export default function Home() {
         <meta name="theme-color" content="#0985df" />
         <meta property="og:image" content="/m3moryio-hero.png"/>
         <meta property="og:title" content="m3mory.io" />
+        <meta name="twitter:card" content="summary_large_image"/>
       </Head>
       <div className="top-section">
         <header>
