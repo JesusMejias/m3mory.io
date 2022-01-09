@@ -1,1 +1,1 @@
-m3mory.io is an open source project and game that uses Unsplash API.
+m3mory.io is an open source project and game that uses the Unsplash API.
